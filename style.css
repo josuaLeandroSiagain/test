@@ -1,0 +1,103 @@
+@media (max-width:800px) {
+    body{
+        background: #000;
+    }
+    .content{
+        width: 50%;
+        margin: auto;
+    }
+    .content h1{
+        color: #fff;
+        font-size: 3em;
+        text-align: center;
+        text-shadow: 3px 3px 10px crimson;
+    }
+    .btn,
+    .btn-yes{
+        position: absolute;
+        width: 100px;
+        padding: .5rem;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.5em;
+        color: crimson;
+        font-weight: 300;
+        box-shadow: 5px 8px 0 3px red;    
+    }
+    .btn-yes{
+        right: 25%;
+        cursor: pointer;
+        background: #fff;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .yes{
+        margin: 30% auto;
+        width: 50%;
+    }
+    .yes .center{
+        text-align: center;
+        font-size: 2em;
+    }
+    .yes h1{
+        color: #fff;
+        text-align: center;
+        font-size: 3em;
+        text-shadow: -8px -8px 8px  red,
+        0 -10px 8px red;
+    }    
+}
+
+@media (max-width:450px) {
+    body{
+        background: #000;
+    }
+    .content{
+        width: 50%;
+        margin: 50% auto;
+    }
+    .content h1{
+        color: #fff;
+        font-size: 2em;
+        text-align: center;
+        text-shadow: 3px 3px 10px crimson;
+    }
+    .btn{
+        margin-left: 30px;
+    }
+    .btn,
+    .btn-yes{
+        position: absolute;
+        width: 40px;
+        padding: .5rem;
+        border: none;
+        border-radius: 8px;
+        font-size: 1em;
+        color: crimson;
+        font-weight: 300;
+        box-shadow: 5px 8px 0 3px red;    
+    }
+    .btn-yes{
+        right: 30%;
+        cursor: pointer;
+        background: #fff;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .yes{
+        margin: 30% auto;
+        width: 50%;
+    }
+    .yes .center{
+        text-align: center;
+        font-size: 2em;
+    }
+    .yes h1{
+        color: #fff;
+        text-align: center;
+        font-size: 3em;
+    
+    }    
+}
